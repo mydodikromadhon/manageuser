@@ -1,0 +1,16 @@
+{
+  "profiles":
+  {
+    "CRUD.ManagementUser.Bsui":
+    {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:44343",
+      "environmentVariables":
+      {
+        "ASPNETCORE_ENVIRONMENT": "Local"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿@page "/Users"
+
+<PageTitle>Users</PageTitle>
+
+<MudTable Items="Response.IdentityUsers"
+		  Dense="true"
+		  Loading="_isLoading">
+	<ToolBarContent>
+		<div Class="col-md-12">
+			<MudButton Variant="Variant.Outlined" OnClick="ShowDialogAddUsers">Create new User</MudButton>
+			<MudButton Variant="Variant.Outlined" Href="roles" Match="NavLinkMatch.Prefix" Class="mx-2">Roles</MudButton>
+		</div>
+		<MudSpacer />
+	</ToolBarContent>
+	<HeaderContent>
+		<MudTh>User Name</MudTh>
+		<MudTh>Email</MudTh>
+		<MudTh>Action</MudTh>
+	</HeaderContent>
+	<RowTemplate>
+		<MudTd DataLabel="User Name">@context.UserName</MudTd>
+		<MudTd DataLabel="Email">@context.Email</MudTd>
+		<MudTd DataLabel="Action">
+			<MudButton Variant="Variant.Outlined" OnClick="() => ShowUserRoles(context)">Manage Roles</MudButton>
+			<MudButton Variant="Variant.Outlined" OnClick="() => ShowDialogDelete(context)">Delete</MudButton>
+		</MudTd>
+	</RowTemplate>
+	<PagerContent>
+		<MudTablePager />
+	</PagerContent>
+</MudTable>

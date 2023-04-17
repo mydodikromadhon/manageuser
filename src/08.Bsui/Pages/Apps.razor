@@ -1,0 +1,22 @@
+﻿@page "/Apps"
+@attribute [Authorize]
+
+<h3>Apps</h3>
+<br />
+<MudGrid>
+    <MudItem sm="12">
+        <MudButtonGroup Variant="Variant.Outlined">
+            <AuthorizeView Policy="@Common.Authorizations.Permissions.CRUD_ManagementUser_App_Create">
+                <MudButton Variant="Variant.Outlined" Color="Color.Default">Create</MudButton>
+            </AuthorizeView>
+
+            <AuthorizeView Policy="@Common.Authorizations.Permissions.CRUD_ManagementUser_App_Update">
+                <MudButton Variant="Variant.Outlined" Color="Color.Primary">Edit</MudButton>
+            </AuthorizeView>
+
+            <AuthorizeView Policy="@Common.Authorizations.Permissions.CRUD_ManagementUser_App_Delete">
+                <MudButton Variant="Variant.Outlined" Color="Color.Error">Delete</MudButton>
+            </AuthorizeView>
+        </MudButtonGroup>
+    </MudItem>
+</MudGrid>

@@ -1,0 +1,17 @@
+﻿<MudNavMenu>
+    <MudNavLink Icon="@Icons.Material.Filled.Home" Href="/" Match="NavLinkMatch.All">Home</MudNavLink>
+    <AuthorizeView>
+        <Authorized>
+            <MudNavLink Icon="@Icons.Material.Filled.People" Href="users" Match="NavLinkMatch.Prefix">Users</MudNavLink>
+            <MudNavLink Icon="@Icons.Material.Filled.Key" Href="roles" Match="NavLinkMatch.Prefix">Roles</MudNavLink>
+        </Authorized>
+    </AuthorizeView>
+
+    <AuthorizeView Roles="Finance Controller">
+        <MudNavLink Href="FinanceController" Match="NavLinkMatch.Prefix">Menu for Finance Controller</MudNavLink>
+    </AuthorizeView>
+
+    <AuthorizeView Policy="@Permissions.CRUD_ManagementUser_App_Index">
+        <MudNavLink Href="apps" Match="NavLinkMatch.Prefix">Apps</MudNavLink>
+    </AuthorizeView>
+</MudNavMenu>

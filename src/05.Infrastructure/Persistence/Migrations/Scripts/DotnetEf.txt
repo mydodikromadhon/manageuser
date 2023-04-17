@@ -1,0 +1,11 @@
+﻿set ASPNETCORE_ENVIRONMENT=Local
+
+dotnet tool update --global dotnet-ef
+
+dotnet ef migrations add PersistenceService_001_InitialSchema --context PersistenceService --project src/05.Infrastructure --startup-project src/08.Bsui --output-dir Persistence/Migrations
+
+dotnet ef migrations remove  --context PersistenceService --project src/05.Infrastructure --startup-project src/08.Bsui
+
+dotnet ef database update --context PersistenceService --project src/05.Infrastructure --startup-project src/08.Bsui
+
+dotnet ef database drop --force --context PersistenceService --project src/05.Infrastructure --startup-project src/08.Bsui

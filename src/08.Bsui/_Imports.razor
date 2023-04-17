@@ -1,0 +1,27 @@
+﻿@using System.Net.Http
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.Extensions.Options
+@using Microsoft.AspNetCore.Identity;
+@using Microsoft.JSInterop
+
+@using MudBlazor
+
+@using CRUD.ManagementUser.Application.Common.Constants
+@using CRUD.ManagementUser.Application.Common.Extensions
+
+@using CRUD.ManagementUser.Bsui.Common.Authorizations
+@using CRUD.ManagementUser.Bsui.Common.Components
+@using CRUD.ManagementUser.Bsui.Common.Constants
+@using CRUD.ManagementUser.Bsui.Common.Extensions
+
+@inject NavigationManager _navigationManager
+@inject ISnackbar _snackbar
+@inject IDialogService _dialogService
+
+@using MediatR
+@inject ISender Sender

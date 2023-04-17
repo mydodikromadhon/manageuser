@@ -1,0 +1,27 @@
+﻿<MudDialog>
+    <DialogContent>
+        <MudTable Items="PermissionRoles"
+                  Dense="true"
+                  Loading="_isLoading">
+            <ToolBarContent>
+                <MudButton Variant="Variant.Outlined" OnClick="ShowDialogAddPermission">Add Permission</MudButton>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Action</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">@context</MudTd>
+                <MudTd>
+                    <MudButton Variant="Variant.Outlined" OnClick="() => DeleteRolePermissions(context)">Delete</MudButton>
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Variant="Variant.Filled" Color="Color.Default" OnClick="Cancel">Close</MudButton>
+    </DialogActions>
+</MudDialog>

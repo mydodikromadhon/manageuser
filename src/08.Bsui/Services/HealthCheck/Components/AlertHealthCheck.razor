@@ -1,0 +1,19 @@
+﻿@using CRUD.ManagementUser.Application.Services.HealthCheckStorage
+@using CRUD.ManagementUser.Application.Services.HealthCheck.Queries.GetHealthCheck
+@using CRUD.ManagementUser.Infrastructure.HealthCheckStorage
+@using CRUD.ManagementUser.Application.Services.HealthCheck.Constants
+@using Microsoft.Extensions.Options;
+
+@inject IOptions<HealthCheckStorageOptions> _healthCheckStorageOptions
+
+<MudLink Href="@_healthCheckStorageOptions.Value.Endpoints.UI" Underline="Underline.None" Target="_blank">
+    <MudAlert Severity="@HealthCheckSeverity" Variant="Variant.Filled" Dense="true" Class="mr-6">@CommonDisplayTextFor.Service @nameof(GetHealthCheckResponse.Status): @HealthCheckStatusText</MudAlert>
+</MudLink>
+
+@code {
+    [Parameter]
+    public Severity HealthCheckSeverity { get; set; }
+
+    [Parameter]
+    public string HealthCheckStatusText { get; set; } = HealthCheckStatus.Loading;
+}

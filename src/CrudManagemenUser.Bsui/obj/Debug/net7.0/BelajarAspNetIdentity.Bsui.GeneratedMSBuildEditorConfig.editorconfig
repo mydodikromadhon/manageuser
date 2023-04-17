@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BelajarAspNetIdentity.Bsui
+build_property.RootNamespace = BelajarAspNetIdentity.Bsui
+build_property.ProjectDir = D:\VIOREN\Belajar-ASPNET-Identity\src\BelajarAspNetIdentity.Bsui\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\VIOREN\Belajar-ASPNET-Identity\src\BelajarAspNetIdentity.Bsui
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Common/Components/BottomButtonPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXENvbXBvbmVudHNcQm90dG9tQnV0dG9uUGFuZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Common/Components/DialogDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXENvbXBvbmVudHNcRGlhbG9nRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Common/Components/LoadingLinear.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXENvbXBvbmVudHNcTG9hZGluZ0xpbmVhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Roles/Components/DialogAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcQ29tcG9uZW50c1xEaWFsb2dBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Roles/Components/DialogEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcQ29tcG9uZW50c1xEaWFsb2dFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Roles/Roles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcUm9sZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Roles/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Users/Components/DialogAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ29tcG9uZW50c1xEaWFsb2dBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Users/Components/DialogAddRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ29tcG9uZW50c1xEaWFsb2dBZGRSb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Users/Components/DialogUserRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ29tcG9uZW50c1xEaWFsb2dVc2VyUm9sZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Users/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcVXNlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Users/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Account/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Account/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Shared/_LayoutAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9MYXlvdXRBdXRoZW50aWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIOREN/Belajar-ASPNET-Identity/src/BelajarAspNetIdentity.Bsui/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,17 @@
+D:\PREDICT\Crud-Management-User\src\04.Application\bin\Debug\net7.0\CRUD.ManagementUser.Application.deps.json
+D:\PREDICT\Crud-Management-User\src\04.Application\bin\Debug\net7.0\CRUD.ManagementUser.Application.runtimeconfig.json
+D:\PREDICT\Crud-Management-User\src\04.Application\bin\Debug\net7.0\CRUD.ManagementUser.Application.dll
+D:\PREDICT\Crud-Management-User\src\04.Application\bin\Debug\net7.0\CRUD.ManagementUser.Application.pdb
+D:\PREDICT\Crud-Management-User\src\04.Application\bin\Debug\net7.0\CRUD.ManagementUser.Domain.dll
+D:\PREDICT\Crud-Management-User\src\04.Application\bin\Debug\net7.0\CRUD.ManagementUser.Domain.pdb
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\04.Application.csproj.AssemblyReference.cache
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\04.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\04.Application.AssemblyInfoInputs.cache
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\04.Application.AssemblyInfo.cs
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\04.Application.csproj.CoreCompileInputs.cache
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\04.Application.csproj.CopyComplete
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\CRUD.ManagementUser.Application.dll
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\refint\CRUD.ManagementUser.Application.dll
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\CRUD.ManagementUser.Application.pdb
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\04.Application.genruntimeconfig.cache
+D:\PREDICT\Crud-Management-User\src\04.Application\obj\Debug\net7.0\ref\CRUD.ManagementUser.Application.dll

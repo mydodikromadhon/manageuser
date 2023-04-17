@@ -1,0 +1,12 @@
+D:\PREDICT\Crud-Management-User\src\02.Domain\bin\Debug\net7.0\CRUD.ManagementUser.Domain.deps.json
+D:\PREDICT\Crud-Management-User\src\02.Domain\bin\Debug\net7.0\CRUD.ManagementUser.Domain.dll
+D:\PREDICT\Crud-Management-User\src\02.Domain\bin\Debug\net7.0\CRUD.ManagementUser.Domain.pdb
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\02.Domain.csproj.AssemblyReference.cache
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\02.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\02.Domain.AssemblyInfoInputs.cache
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\02.Domain.AssemblyInfo.cs
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\02.Domain.csproj.CoreCompileInputs.cache
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\CRUD.ManagementUser.Domain.dll
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\refint\CRUD.ManagementUser.Domain.dll
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\CRUD.ManagementUser.Domain.pdb
+D:\PREDICT\Crud-Management-User\src\02.Domain\obj\Debug\net7.0\ref\CRUD.ManagementUser.Domain.dll

@@ -1,0 +1,23 @@
+﻿@page "/Claims"
+@attribute [Authorize]
+
+<h3>Claims</h3>
+
+<AuthorizeView>
+    <Authorized>
+        <MudTable Items="context.User.Claims" Context="data"
+                  Dense="true">
+            <HeaderContent>
+                <MudTh>Type</MudTh>
+                <MudTh>Value</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Type">@data.Type</MudTd>
+                <MudTd DataLabel="Value">@data.Value</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </Authorized>
+</AuthorizeView>

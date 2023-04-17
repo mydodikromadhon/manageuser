@@ -1,0 +1,28 @@
+﻿<MudDialog>
+    <DialogContent>
+        <LoadingLinear IsVisible="_isLoading" />
+        <EditForm Model="Request" OnInvalidSubmit="OnInvalidSubmit" OnValidSubmit="OnValidSubmit">
+            <MudFocusTrap>
+                <MudGrid>
+                    <MudItem xs="12">
+                        <MudSelect
+                            Label="Select Roles"
+                            Required="true"
+                            @bind-Value="SelectedPermission">
+
+                            @foreach (var permission in IdentityPermissions)
+                            {
+                                <MudSelectItem Value="permission">@permission</MudSelectItem>
+                            }
+
+                        </MudSelect>
+                    </MudItem>
+                </MudGrid>
+            </MudFocusTrap>
+            <BottomButtonPanel>
+                <MudButton Variant="Variant.Filled" Color="Color.Default" OnClick="Cancel">Cancel</MudButton>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Submit">Add</MudButton>
+            </BottomButtonPanel>
+        </EditForm>
+    </DialogContent>
+</MudDialog>

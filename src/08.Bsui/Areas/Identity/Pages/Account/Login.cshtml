@@ -1,0 +1,54 @@
+﻿@page
+
+@model CRUD.ManagementUser.Bsui.Areas.Identity.Pages.Account.LoginModel
+
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<div class="row h-100">
+    <div class="col-md-6">
+        <div class="centered-position">
+            <div class="row">
+                <div class="col-md-12">
+                    <section>
+                        <form id="account" method="post">
+                            <h1 class="mb-5">@ViewData["Title"]</h1>
+
+                            <div class="form-group">
+                                <input asp-for="Input.Email" class="form-control-login" placeholder="Email" />
+                                <div class="text-danger">
+                                    <span asp-validation-for="Input.Email"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Input.Password" class="form-control-login" placeholder="Password" />
+                                <div class="text-danger">
+                                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn-login">LOGIN</button>
+                            </div>
+                            <div class="form-group">
+                                @if (ModelState.ErrorCount > 0)
+                                {
+                                    <div asp-validation-summary="All" class="alert alert-danger"></div>
+                                }
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                <div class="col-md-12">
+                    <p>
+                        <a asp-page="/Account/CreateUser" class="btn btn-secondary">Register as a new user</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="dark-side">
+        </div>
+    </div>
+</div>

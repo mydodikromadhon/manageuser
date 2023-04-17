@@ -1,0 +1,29 @@
+﻿@page "/Roles"
+
+<PageTitle>Roles</PageTitle>
+
+<MudTable Items="IdentityRoles"
+          Dense="true"
+          Loading="_isLoading">
+    <ToolBarContent>
+        <div Class="col-md-12">
+            <MudButton Variant="Variant.Outlined" OnClick="ShowDialogAdd">Create new Role</MudButton>
+            <MudButton Variant="Variant.Outlined" Href="users" Match="NavLinkMatch.Prefix" Class="mx-2">Users</MudButton>
+        </div>
+        <MudSpacer />
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>User Name</MudTh>
+        <MudTh>Action</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="User Name">@context.Name</MudTd>
+        <MudTd DataLabel="Action">
+            <MudButton Variant="Variant.Outlined" OnClick="() => ShowDialogEdit(context)">Edit</MudButton>
+            <MudButton Variant="Variant.Outlined" OnClick="() => ShowDialogDelete(context)">Delete</MudButton>
+        </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager />
+    </PagerContent>
+</MudTable>

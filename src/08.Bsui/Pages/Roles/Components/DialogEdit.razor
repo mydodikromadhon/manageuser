@@ -1,0 +1,21 @@
+﻿<MudDialog>
+    <DialogContent>
+        <LoadingLinear IsVisible="_isLoading" />
+        <EditForm Model="Request" OnInvalidSubmit="OnInvalidSubmit" OnValidSubmit="OnValidSubmit">
+            <MudFocusTrap>
+                <MudGrid>
+                    <MudItem xs="12">
+                        <MudTextField Label="Name"
+                                      Required="true"
+                                      Placeholder="@($"{nameof(Request.Name)}")"
+                                      @bind-Value="Request.Name" />
+                    </MudItem>
+                </MudGrid>
+            </MudFocusTrap>
+            <BottomButtonPanel>
+                <MudButton Variant="Variant.Filled" Color="Color.Default" OnClick="Cancel">Cancel</MudButton>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Submit">Add</MudButton>
+            </BottomButtonPanel>
+        </EditForm>
+    </DialogContent>
+</MudDialog>

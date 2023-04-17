@@ -1,0 +1,21 @@
+﻿<MudDialog>
+    <DialogContent>
+        <MudTable Items="Claims"
+                  Dense="true">
+            <HeaderContent>
+                <MudTh>Type</MudTh>
+                <MudTh>Value</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Type">@context.Type</MudTd>
+                <MudTd DataLabel="Value">@context.Value</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Variant="Variant.Filled" Color="Color.Default" OnClick="Cancel">Close</MudButton>
+    </DialogActions>
+</MudDialog>
